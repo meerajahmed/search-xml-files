@@ -1,0 +1,29 @@
+{
+  "name": "search-xml-files",
+  "version": "1.0.0",
+  "description": "Search XML files in node",
+  "main": "/bin/index.js",
+  "scripts": {
+    "bin": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meerajahmed/search-xml-files.git"
+  },
+  "keywords": [
+    "xml"
+  ],
+  "author": "Meeraj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meerajahmed/search-xml-files/issues"
+  },
+  "homepage": "https://github.com/meerajahmed/search-xml-files#readme",
+  "dependencies": {
+    "commander": "^4.1.1",
+    "fast-glob": "^3.1.1",
+    "fs-extra": "^8.1.0",
+    "lodash.get": "^4.4.2",
+    "xml2js": "^0.4.23"
+  }
+}
